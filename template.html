@@ -1,0 +1,12 @@
+<head>
+    <!-- Other head elements -->
+    <script>
+        if (window.history.replaceState) {
+            window.history.replaceState(null, null, window.location.href);
+        }
+    </script>
+</head>
+<body onload="noBack();" onpageshow="if (event.persisted) noBack();" onunload="">
+    <!-- Your content -->
+    <script src="js/prevent-back.js"></script>
+</body>

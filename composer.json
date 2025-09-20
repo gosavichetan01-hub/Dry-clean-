@@ -1,0 +1,6 @@
+{
+    "name": "tumbledry/laundry-services",
+    "require": {
+        "phpmailer/phpmailer": "^6.9"
+    }
+}
